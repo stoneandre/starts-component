@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.lexend-deca-regular {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #0A0C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+body>article {
+    width: 1110px;
+    height: 446px;
+    background-color: #1B1937;
+    border-radius: 8px;
+    display: flex;
+
+    padding-left: 72px;
+    /* padding-right: 95px; */
+    justify-content: space-between;
+}
+
+.content {
+    padding-top: 71px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 60px;
+}
+
+.bg {
+    width: 540px;
+    height: 446px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #AB5CDB;
+    background-image: url(./images/image-header-desktop.jpg); */
+    opacity: 0.75;
+    background: #AB5CDB url(./images/image-header-desktop.png) no-repeat center/contain ;
+}
+
+h3 {
+    width: 403px;
+    height: 88px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+span {
+    color: #AB5CDB;
+}
+
+div>p {
+    width: 374px;
+    height: 75px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 72px;
+}
+
+.info article p:nth-child(1) {
+    height: 29px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.info article p:nth-child(2) {
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
